@@ -1,0 +1,145 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: #F4F4FA;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+	background: #32CD32;
+	color: #fff;
+	text-align: center;
+	padding: 50px 0;
+	height: 400px;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+header .titulo {
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: 200;
+	font-size: 30px;
+}
+
+main {
+	margin-top: 150px;
+}
+
+main .contenedor {
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+}
+
+/* ------------------------- */
+/* Estilos CSS del Reproductor */
+/* ------------------------- */
+.fm-video {
+	width: 100%;
+	box-shadow: 0px 0px 6px 0px rgba(0,0,0,.5);
+}
+
+.fm-video .vjs-control-bar {
+	background: #F4F4F4;
+	color: darkgreen;
+}
+
+.fm-video .vjs-play-progress,
+.fm-video .vjs-volume-level {
+	background: #1d87d8;
+}
+
+.fm-video .vjs-slider {
+	background: darkgreen;
+}
+
+.video-js:hover .vjs-big-play-button {
+	background: rgba(0,0,0,.2);
+}
+
+.fm-video .vjs-big-play-button {
+	background: rgba(0,0,0,.2);
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	border-radius: 100%;
+	border:none;
+}
+
+.fm-video .vjs-big-play-button:hover {
+	background: rgba(0,0,0,.5);
+}
+
+article {
+	margin: 50px 0;
+	background: #fff;
+	color: #000;
+	font-size: 16px;
+	line-height: 28px;
+	padding: 40px;
+}
+
+
+
+
+
+article h2 {
+	color: #32CD32;
+	font-size: 32px;
+	font-weight: normal;
+	margin-bottom: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+@media screen and (max-width: 600px) {
+	header {
+		position: relative;
+		height: auto;
+	}
+
+	main {
+		margin-top: 50px;
+	}
+}
+
+
+
+
+
+.galeria img {
+	box-shadow: 0 8px 10px -4px rgba(117, 88, 88, 0.6);
+	border-radius: 15px;
+}
+
+.materialbox-caption {
+	bottom: 30px;
+	right: 0;
+	width: 40%;
+	height: auto;
+	padding: 10px;
+	margin: auto;
+	background: #000;
+	box-shadow: 5px 5px #fff;
+	font-size: 20px;
+	color: #fff;
+	line-height: 28px;
+}
+
+.galeria .col {
+	margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px){
+	.materialbox-caption {
+		 width: 90%;
+	}
+}
+
+@media screen and (max-width: 992px){
+	.materialbox-caption {
+		 width: 70%;
+	}
+}
